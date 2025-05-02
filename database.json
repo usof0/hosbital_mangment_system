@@ -1,0 +1,389 @@
+{
+  "users": {
+    "patients": [
+      {
+        "id": 1,
+        "name": "John Patient",
+        "email": "p1",
+        "password": "p1",
+        "phone": "555-0101",
+        "address": "123 Main St, City",
+        "date_of_birth": "1985-05-15",
+        "blood_type": "A+",
+        "insurance": "MediCare Gold"
+      },
+      {
+        "id": 2,
+        "name": "Sarah Smith",
+        "email": "sarah@example.com",
+        "password": "sarah123",
+        "phone": "555-0102",
+        "address": "456 Oak Ave, Town",
+        "date_of_birth": "1990-08-22",
+        "blood_type": "O-",
+        "insurance": "HealthPlus"
+      },
+      {
+        "id": 3,
+        "name": "jdlfjd",
+        "email": "fdfs@fds.con",
+        "password": "ttt111",
+        "phone": "5436546345344",
+        "date_of_birth": "2007-04-29",
+        "blood_type": "A+",
+        "insurance": "4325252",
+        "address": ""
+      }
+    ],
+    "doctors": [
+      {
+        "id": 1,
+        "name": "Dr. Sarah Johnson",
+        "email": "d1",
+        "password": "d1",
+        "phone": "555-0201",
+        "specialization": "Cardiology",
+        "department": "Cardiology",
+        "schedule": "Mon-Fri, 9AM-5PM"
+      },
+      {
+        "id": 2,
+        "name": "Dr. Michael Chen",
+        "email": "michael@example.com",
+        "password": "michael123",
+        "phone": "555-0202",
+        "specialization": "Neurology",
+        "department": "Neurology",
+        "schedule": "Mon-Wed, 10AM-6PM"
+      }
+    ],
+    "admins": [
+      {
+        "id": 1,
+        "name": "Admin User",
+        "email": "a1",
+        "password": "a1",
+        "phone": "555-0301",
+        "role": "admin"
+      }
+    ]
+  },
+  "appointments": [
+    {
+      "id": 1,
+      "patient_id": 1,
+      "doctor_id": 1,
+      "date": "2024-05-25",
+      "time": "10:00",
+      "reason": "Annual checkup",
+      "status": "cancelled"
+    },
+    {
+      "id": 12,
+      "patient_id": 1,
+      "doctor_id": 1,
+      "date": "2024-05-25",
+      "time": "11:00",
+      "reason": "Annual checkup",
+      "status": "cancelled"
+    },
+    {
+      "id": 13,
+      "patient_id": 1,
+      "doctor_id": 1,
+      "date": "2025-04-29",
+      "time": "13:00",
+      "reason": "Annual checkup",
+      "status": "completed"
+    },
+    {
+      "id": 2,
+      "patient_id": 1,
+      "doctor_id": 2,
+      "date": "2025-04-29",
+      "time": "14:30",
+      "reason": "Headache consultation",
+      "status": "pending"
+    },
+    {
+      "id": 3,
+      "patient_id": 2,
+      "doctor_id": 1,
+      "date": "2025-04-29",
+      "time": "11:00",
+      "reason": "Heart palpitations",
+      "status": "completed"
+    },
+    {
+      "patient_id": 1,
+      "doctor_id": 1,
+      "date": "2025-04-30",
+      "time": "15:00",
+      "reason": "nooooo",
+      "status": "cancelled",
+      "id": 6
+    },
+    {
+      "patient_id": 1,
+      "doctor_id": 1,
+      "date": "2025-04-30",
+      "time": "09:00",
+      "reason": "",
+      "status": "cancelled",
+      "id": 7
+    },
+    {
+      "patient_id": 1,
+      "doctor_id": 1,
+      "date": "2025-04-30",
+      "time": "09:00",
+      "reason": "shosho",
+      "status": "cancelled",
+      "id": 8
+    },
+    {
+      "patient_id": 1,
+      "doctor_id": 1,
+      "date": "2025-05-01",
+      "time": "09:00",
+      "reason": "tktktk",
+      "status": "cancelled",
+      "id": 9
+    },
+    {
+      "patient_id": 1,
+      "doctor_id": 1,
+      "date": "2025-05-01",
+      "time": "09:00",
+      "reason": "cscdscs",
+      "status": "pending",
+      "id": 10
+    },
+    {
+      "patient_id": 1,
+      "doctor_id": 1,
+      "date": "2025-05-01",
+      "time": "09:00",
+      "reason": "rtrtrtr",
+      "status": "cancelled",
+      "id": 11
+    },
+    {
+      "patient_id": 1,
+      "doctor_id": 1,
+      "date": "2025-05-01",
+      "time": "05:00 PM",
+      "reason": "ggggg",
+      "status": "pending",
+      "created_at": "2025-05-01 15:02:39",
+      "id": 12
+    },
+    {
+      "patient_id": 1,
+      "doctor_id": 1,
+      "date": "2025-05-01",
+      "time": "09:00 AM",
+      "reason": "fdfds",
+      "status": "pending",
+      "created_at": "2025-05-01 15:04:17",
+      "id": 13
+    },
+    {
+      "patient_id": 1,
+      "doctor_id": 1,
+      "date": "2025-05-01",
+      "time": "09:00 AM",
+      "reason": "fsfdsfg",
+      "status": "pending",
+      "created_at": "2025-05-01 15:04:50",
+      "id": 14
+    },
+    {
+      "patient_id": 1,
+      "doctor_id": 1,
+      "date": "2025-05-01",
+      "time": "09:00 AM",
+      "reason": "gfdd",
+      "status": "pending",
+      "created_at": "2025-05-01 15:05:51",
+      "id": 15
+    },
+    {
+      "patient_id": 1,
+      "doctor_id": 1,
+      "date": "2025-05-01",
+      "time": "09:00 AM",
+      "reason": "gdhf fhd",
+      "status": "pending",
+      "created_at": "2025-05-01 17:54:50",
+      "id": 16
+    },
+    {
+      "patient_id": 1,
+      "doctor_id": 1,
+      "date": "2025-05-01",
+      "time": "09:00",
+      "reason": "gdfhb fgfd fdghdf",
+      "status": "pending",
+      "id": 17
+    },
+    {
+      "patient_id": 1,
+      "doctor_id": 1,
+      "date": "2025-05-01",
+      "time": "09:00",
+      "reason": "xxx",
+      "status": "pending",
+      "id": 18
+    },
+    {
+      "patient_id": 1,
+      "doctor_id": 1,
+      "date": "2025-05-01",
+      "time": "09:00",
+      "reason": "eee",
+      "status": "pending",
+      "id": 19
+    },
+    {
+      "patient_id": 1,
+      "doctor_id": 1,
+      "date": "2025-05-01",
+      "time": "08:00 AM",
+      "reason": "fdfdd",
+      "status": "pending",
+      "created_at": "2025-05-01 18:51:34",
+      "id": 20
+    },
+    {
+      "patient_id": 1,
+      "doctor_id": 1,
+      "date": "2025-05-01",
+      "time": "09:00 AM",
+      "reason": "fdsgghgggg",
+      "status": "pending",
+      "created_at": "2025-05-01 18:52:28",
+      "id": 21
+    },
+    {
+      "patient_id": 1,
+      "doctor_id": 1,
+      "date": "2025-05-02",
+      "time": "09:00 AM",
+      "reason": "sdgs fdf",
+      "status": "pending",
+      "created_at": "2025-05-02 20:43:24",
+      "id": 22
+    }
+  ],
+  "prescriptions": [
+    {
+      "id": 1,
+      "patient_id": 1,
+      "doctor_id": 1,
+      "date": "2024-05-20",
+      "medication": "Amoxicillin 500mg",
+      "dosage": "1 tablet every 8 hours",
+      "duration": "7 days",
+      "status": "active"
+    },
+    {
+      "id": 2,
+      "patient_id": 1,
+      "doctor_id": 2,
+      "date": "2024-05-15",
+      "medication": "Lisinopril 10mg",
+      "dosage": "1 tablet daily",
+      "duration": "30 days",
+      "status": "completed"
+    },
+    {
+      "id": 3,
+      "patient_id": 2,
+      "doctor_id": 1,
+      "date": "2024-05-21",
+      "medication": "Atorvastatin 20mg",
+      "dosage": "1 tablet at bedtime",
+      "duration": "30 days",
+      "status": "active"
+    },
+    {
+      "id": 4,
+      "patient_id": 1,
+      "doctor_id": 2,
+      "date": "2025-04-30",
+      "medication": "Lisinopril 10mg",
+      "dosage": "1 tablet daily",
+      "duration": "30 days",
+      "status": "completed"
+    },
+    {
+      "id": 5,
+      "patient_id": 1,
+      "doctor_id": 2,
+      "date": "2025-04-30",
+      "medication": "Lisinopril 10mg",
+      "dosage": "1 tablet daily",
+      "duration": "30 days",
+      "status": "completed"
+    },
+    {
+      "id": 6,
+      "patient_id": 1,
+      "doctor_id": 1,
+      "date": "2025-05-01",
+      "medication": "dfdfdf 5",
+      "dosage": "12",
+      "instructions": "dfsdfs",
+      "status": "active"
+    },
+    {
+      "id": 7,
+      "patient_id": 1,
+      "doctor_id": 1,
+      "date": "2025-05-02",
+      "medication": "fd 20mg",
+      "dosage": "2 times aday",
+      "instructions": "3 weeks",
+      "status": "active"
+    }
+  ],
+  "medical_records": [
+    {
+      "id": 1,
+      "patient_id": 1,
+      "doctor_id": 1,
+      "date": "2024-05-10",
+      "diagnosis": "Hypertension",
+      "treatment": "Prescribed Lisinopril",
+      "notes": "Patient to follow up in 1 month"
+    },
+    {
+      "id": 2,
+      "patient_id": 1,
+      "doctor_id": 2,
+      "date": "2024-04-15",
+      "diagnosis": "Migraine",
+      "treatment": "Prescribed pain relievers",
+      "notes": "Patient reports improvement"
+    }
+  ],
+  "billing": [
+    {
+      "id": 1,
+      "patient_id": 1,
+      "appointment_id": 1,
+      "amount": 120.5,
+      "date": "2024-05-25",
+      "status": "pending"
+    },
+    {
+      "id": 2,
+      "patient_id": 1,
+      "appointment_id": 2,
+      "amount": 150.0,
+      "date": "2024-06-02",
+      "status": "pending"
+    }
+  ]
+}
